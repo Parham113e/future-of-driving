@@ -43,3 +43,6 @@ body {
     Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
 }
+
+--space-section: 6rem;
+--space-hero: 8rem;
