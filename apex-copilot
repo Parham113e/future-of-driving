@@ -1,0 +1,9 @@
+app/
+  components/
+  globals.css
+  layout.jsx
+  page.jsx
+public/
+  logo.svg
+next.config.js
+package.json
