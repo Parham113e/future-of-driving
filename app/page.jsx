@@ -114,3 +114,14 @@ export default function Home() {
     </main>
   );
 }
+<h1
+  style={{
+    fontSize: "var(--text-hero)",
+    fontWeight: 700,
+    letterSpacing: "-0.03em",
+    marginBottom: "var(--space-sm)"
+  }}
+>
+  Apex Copilot
+</h1>
+
