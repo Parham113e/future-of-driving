@@ -11,17 +11,17 @@ export default function Home() {
     <main style={{ width: "100%", overflow: "hidden" }}>
       <Navbar />
 
-      <Section center>
-        <h1
-          style={{
-            fontSize: "var(--text-hero)",
-            fontWeight: 700,
-            letterSpacing: "-0.5px",
-            marginBottom: "var(--space-sm)"
-          }}
-        >
-          Apex Copilot
-        </h1>
+      <h1
+  style={{
+    fontSize: "var(--text-hero)",
+    fontWeight: 700,
+    letterSpacing: "-0.03em",
+    marginBottom: "var(--space-sm)"
+  }}
+>
+  Apex Copilot
+</h1>
+
         <p
           style={{
             color: "var(--muted)",
@@ -113,15 +113,4 @@ export default function Home() {
       <Footer />
     </main>
   );
-}
-<h1
-  style={{
-    fontSize: "var(--text-hero)",
-    fontWeight: 700,
-    letterSpacing: "-0.03em",
-    marginBottom: "var(--space-sm)"
-  }}
->
-  Apex Copilot
-</h1>
 
