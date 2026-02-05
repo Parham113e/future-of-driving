@@ -113,4 +113,15 @@ export default function Home() {
       <Footer />
     </main>
   );
+<p
+  style={{
+    color: "var(--muted)",
+    fontSize: "1.2rem",
+    lineHeight: 1.7,
+    maxWidth: "700px",
+    margin: "0 auto"
+  }}
+>
+
+      
 
