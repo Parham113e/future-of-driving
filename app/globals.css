@@ -1,4 +1,4 @@
-:root {
+i:root {
   /* Colors */
   --bg: #0a0a0a;
   --surface: #111111;
@@ -49,4 +49,7 @@ body {
 .card-hover:hover {
   transform: translateY(-3px);
   border-color: var(--accent-soft);
+}
+.glow {
+  box-shadow: 0 0 40px var(--accent-glow);
 }
