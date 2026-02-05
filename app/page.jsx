@@ -96,6 +96,15 @@ export default function Home() {
             Be one of the first to experience Apex Copilot
           </h2>
 
+          <section
+  className="glow"
+  style={{
+    background: "#111",
+    padding: "6rem 2rem",
+    borderRadius: "20px"
+  }}
+>
+
           <p
             style={{
               color: "var(--muted)",
