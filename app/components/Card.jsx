@@ -14,3 +14,4 @@ export function Card({ children }) {
   );
 }
 
+<div className="card-hover" style={{ ... }}>
