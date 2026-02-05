@@ -13,3 +13,17 @@ export function Section({ children, width = "900px", center = false }) {
   );
 }
 
+export function Section({ children, width = "1100px", center = false }) {
+  return (
+    <section
+      style={{
+        padding: "var(--space-section) var(--space-lg)",
+        maxWidth: width,
+        margin: "0 auto",
+        textAlign: center ? "center" : "left"
+      }}
+    >
+      {children}
+    </section>
+  );
+}
