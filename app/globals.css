@@ -1,0 +1,27 @@
+:root {
+  --bg: #0a0a0a;
+  --surface: #111111;
+  --border: #222222;
+  --fg: #ffffff;
+  --muted: #9ca3af;
+  --accent: #3b82f6;
+  --accent-soft: #60a5fa;
+  --accent-glow: rgba(59,130,246,0.35);
+  --danger: #ef4444;
+  --success: #22c55e;
+
+  --text-hero: 3.5rem;
+  --text-h1: 2.4rem;
+  --text-h2: 1.8rem;
+  --text-body: 1.1rem;
+  --text-small: 0.9rem;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+
+  --transition: all 0.25s ease;
+}
