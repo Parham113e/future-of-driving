@@ -11,16 +11,17 @@ export default function Home() {
     <main style={{ width: "100%", overflow: "hidden" }}>
       <Navbar />
 
-      <h1
-  style={{
-    fontSize: "var(--text-hero)",
-    fontWeight: 700,
-    letterSpacing: "-0.03em",
-    marginBottom: "var(--space-sm)"
-  }}
->
-  Apex Copilot
-</h1>
+      <Section>
+        <h1
+          style={{
+            fontSize: "var(--text-hero)",
+            fontWeight: 700,
+            letterSpacing: "-0.03em",
+            marginBottom: "var(--space-sm)"
+          }}
+        >
+          Apex Copilot
+        </h1>
 
         <p
           style={{
@@ -32,6 +33,7 @@ export default function Home() {
         >
           The intelligence layer for modern driving. Clear. Calm. Confident. Always with you.
         </p>
+
         <Button>Join the Waitlist</Button>
       </Section>
 
@@ -97,40 +99,29 @@ export default function Home() {
           </h2>
 
           <section
-  className="glow"
-  style={{
-    background: "#111",
-    padding: "6rem 2rem",
-    borderRadius: "20px"
-  }}
->
-
-          <p
+            className="glow"
             style={{
-              color: "var(--muted)",
-              marginBottom: "2.5rem",
-              fontSize: "1.1rem"
+              background: "#111",
+              padding: "6rem 2rem",
+              borderRadius: "20px"
             }}
           >
-            Join the waitlist and get early access.
-          </p>
+            <p
+              style={{
+                color: "var(--muted)",
+                marginBottom: "2.5rem",
+                fontSize: "1.1rem"
+              }}
+            >
+              Join the waitlist and get early access.
+            </p>
 
-          <Button>Join the Waitlist</Button>
+            <Button>Join the Waitlist</Button>
+          </section>
         </section>
       </Section>
 
       <Footer />
     </main>
   );
-<p
-  style={{
-    color: "var(--muted)",
-    fontSize: "1.2rem",
-    lineHeight: 1.7,
-    maxWidth: "700px",
-    margin: "0 auto"
-  }}
->
-
-      
-
+}
